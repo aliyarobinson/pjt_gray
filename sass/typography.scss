@@ -1,0 +1,48 @@
+/*
+
+  Fonts
+
+*/
+
+@include font-face('cicle', '../fonts/cicle/cicle_semi_italic-webfont', 400, 'italic');
+@include font-face('cicle', '../fonts/cicle/cicle_semi-webfont', 400, 'normal');
+@include font-face('cicle', '../fonts/cicle/cicle_fina_italic-webfont', 100, 'italic');
+@include font-face('cicle', '../fonts/cicle/cicle_fina-webfont', 100, 'normal');
+
+@include font-face('lato', '../fonts/lato/lato-italic-webfont', 400, 'italic');
+@include font-face('lato', '../fonts/lato/lato-regular-webfont', 400, 'normal');
+@include font-face('lato', '../fonts/lato/lato-lightitalic-webfont', 100, 'italic');
+@include font-face('lato', '../fonts/lato/lato-light-webfont', 100, 'normal');
+
+// @include font-face('fontawesome', '../fonts/fontawesome-webfont');
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ /* @font-face {
+      font-family: 'lane-narrow';
+      src: url('../fonts/lanenar_-webfont.svg#lane_-_narrowregular') format('svg');
+  }
+  p {
+    font-weight: 800;
+  }*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+strong {
+  font-weight: bold;
+  font-size: 22px;
+  color: #000;
+}
+
+p {
+  margin: 20px 0;
+  line-height: 28px;
+  letter-spacing: 0.26px;
+  font-size: $font-size;
+}
+
+p:first-child {
+  margin-top: 0;
+}
